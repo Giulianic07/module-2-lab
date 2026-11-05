@@ -1,9 +1,11 @@
+#Giuliani Charles
+# The GPA app
+#this app will help students determine if they made it to the deans list or the the Honor roll
 last_Name = input("what is your last name ( type ZZZ if you want to quit): ")
 
 while last_Name != "ZZZ":
     
     first_Name = input("Enter first name: ")
-    
     gpa = float(input("Enter GPA: "))
     
     if gpa >=3.5:
